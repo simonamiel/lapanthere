@@ -697,6 +697,7 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .social {
