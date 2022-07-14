@@ -106,23 +106,18 @@
 		<!-- MAIN -->
 		<main class="bloc bgc-white l-bloc" id="bloc-7">
 			<div class="container bloc-lg">
-				<div class="row center-column">
+				<div class="row">
 					<div class="col-sm-6">
-						<form
-							id="form_1"
-							novalidate
-							success-msg="Your message has been sent."
-							fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
-						>
-							<div class="form-group">
+						<form id="form_1" novalidate>
+							<div class="form-group center-column">
 								<label> Nom </label>
 								<input id="name" class="form-control" required />
 							</div>
-							<div class="form-group">
+							<div class="form-group center-column">
 								<label> Adresse email </label>
 								<input id="email" class="form-control" type="email" required />
 							</div>
-							<div class="form-group">
+							<div class="form-group center-column">
 								<label> Comment nous avez-vous connu ? </label>
 								<input
 									class="form-control"
@@ -131,28 +126,31 @@
 									id="input_504"
 								/>
 							</div>
-							<div class="form-group">
-								<label>
-									Brief de votre projet (Ajoutez autant de détails que
+							<div class="form-group center-column">
+								<label class="">
+									Brief de votre projet <br />(Ajoutez autant de détails que
 									nécessaire)<br /> </label
 								><textarea
 									id="message"
 									class="form-control"
 									rows="4"
-									cols="50"
+									cols="40"
 									required
 								></textarea>
 							</div>
-							<button
-								class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
-								type="submit"
-							>
-								Envoyer
-							</button>
+							<div class="center-column btn-send">
+								<button
+									href="page2.html"
+									class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine"
+									id="cta-hero"
+								>
+									Envoyer
+								</button>
+							</div>
 						</form>
 					</div>
 					<div class="col-sm-6">
-						<p>
+						<p class="center-column">
 							contact@agencelapanthere.com<br />2 place Sathonay 69001 Lyon<br />Ouvert
 							de 9h à 18h, du lundi au vendredi<br />
 						</p>
