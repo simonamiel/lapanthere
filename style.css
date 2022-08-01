@@ -852,10 +852,20 @@ h4 {
 .title-contact {
     font-weight: bold;
     font-size: 2.4rem;
-    color: #FFF;
+    color: #FFF!important;
 }
 .btn-send {
     align-content: center;
+}
+.a-block {
+    font-size: 14px;
+    
+}
+.li-block {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    
 }
 @media (max-width: 1024px) {
     .bloc {
